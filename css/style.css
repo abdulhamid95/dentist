@@ -55,10 +55,10 @@ header#header .navbar .nav-link {
   font-weight: 600;
 }
 header#header .navbar .nav-link:hover {
-  color: #556683;
+  color: #e9e6c8;
 }
 header#header .navbar .nav-item.active .nav-link {
-  color: #556683;
+  color: #e9e6c8;
 }
 header#header .navbar .call-button {
   padding: 10px;
@@ -101,6 +101,7 @@ header#header .header-layout .header-text .primary-color {
   margin-bottom: 20px;
   font-size: 22px;
   font-weight: 700;
+  color: #e9e6c8;
 }
 header#header .header-layout .header-text h1.header-heading {
   color: #fff;
@@ -231,7 +232,7 @@ section.about-us .about-wraper .contact-us-card a.contact-button:hover {
   }
 }
 section.about-us .video-img {
-  background-image: url(../images/ozkan-guner-0MgdnJZSpOM-unsplash.jpg);
+  background-image: url(../images/lab-1.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -519,11 +520,12 @@ section.gallery .overlay .radio-buttons label:hover {
   border-color: #c24d2c;
 }
 section.bartners {
-  padding: 50px;
+  padding: 30px;
   background-color: #e9e6c8;
 }
 section.bartners img {
   height: 60px;
+  filter: brightness(170%) contrast(100%) saturate(0%) blur(0) hue-rotate(0deg);
 }
 
 footer .overlay {
@@ -534,9 +536,9 @@ footer .overlay {
 footer .f-form {
   width: 275px;
   margin: 0 auto;
-  background-color: rgba(152, 61, 35, 0.8);
+  background-color: rgba(194, 77, 44, 0.8);
   padding: 22px;
-  margin-top: -100px;
+  margin-top: -130px;
   color: #fff;
 }
 @media (max-width: 767px) {
@@ -547,15 +549,15 @@ footer .f-form {
 footer .f-form h3 {
   color: #ffffff;
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
   margin: 0;
 }
 footer .f-form p {
   color: #ffffff;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   margin: 0;
-  padding: 0 0 10px;
+  padding: 0 0 20px;
 }
 footer .f-form .input {
   position: relative;
@@ -614,9 +616,10 @@ footer .f-form .submit-button:hover {
 footer .social-media a {
   text-decoration: none;
   color: #e9e6c8;
-  font-size: 26px;
+  font-size: 36px;
   margin-right: 10px;
   transition: all 0.3s ease;
+  color: #e9e6c8;
 }
 footer .social-media a:hover {
   color: #d3cd91;

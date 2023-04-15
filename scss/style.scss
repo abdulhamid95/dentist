@@ -67,14 +67,14 @@ header#header {
             font-weight: 600;
 
             &:hover {
-                color: $primary-color;
+                color: $light-color;
             }
         }
 
         .nav-item {
             &.active {
                 .nav-link {
-                    color: $primary-color;
+                    color: $light-color;
                 }
             }
         }
@@ -121,6 +121,7 @@ header#header {
                 margin-bottom: 20px;
                 font-size: 22px;
                 font-weight: 700;
+                color: $light-color;
             }
 
             h1.header-heading {
@@ -270,7 +271,7 @@ section {
         }
         
         .video-img {
-            background-image: url(../images/ozkan-guner-0MgdnJZSpOM-unsplash.jpg);
+            background-image: url(../images/lab-1.png);
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
@@ -686,11 +687,12 @@ section {
     }
 
     &.bartners {
-        padding: 50px;
+        padding: 30px;
         background-color: $light-color;
 
         img {
             height: 60px;
+            filter: brightness(170%) contrast(100%) saturate(0%) blur(0) hue-rotate(0deg);
         }
     }
 }
@@ -708,9 +710,9 @@ footer {
     .f-form {
         width: 275px;
         margin: 0 auto;
-        background-color: rgba($color: darken($color: $warning-color, $amount: 10%), $alpha: 0.8);
+        background-color: rgba($color: $warning-color, $alpha: 0.8);
         padding: 22px;
-        margin-top: -100px;
+        margin-top: -130px;
         color: #fff;
 
         @media (max-width: 767px) {
@@ -720,16 +722,16 @@ footer {
         h3 {
             color: #ffffff;
             text-align: center;
-            font-size: 16px;
+            font-size: 20px;
             margin: 0;
         }
 
         p {
             color: #ffffff;
             text-align: center;
-            font-size: 14px;
+            font-size: 16px;
             margin: 0;
-            padding: 0 0 10px;
+            padding: 0 0 20px;
         }
 
         .input {
@@ -806,9 +808,10 @@ footer {
         a {
             text-decoration: none;
             color: $light-color;
-            font-size: 26px;
+            font-size: 36px;
             margin-right: 10px;
             transition: all .3s ease;
+            color: $light-color;
             &:hover {
                 color: darken($color: $light-color, $amount: 15%);
             }
